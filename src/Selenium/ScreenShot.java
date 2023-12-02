@@ -20,7 +20,7 @@ public class ScreenShot {
     public  void Test() throws IOException {
 
        driver.get("https://opensource-demo.orangehrmlive.com/");
-        WebElement username = driver.findElement(By.name("username"));
+        WebElement username = driver.findElement(By.name("user7name"));
         username.sendKeys("Admin1");
         WebElement password = driver.findElement(By.name("password"));
         password.sendKeys("admin123");
