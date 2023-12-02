@@ -9,7 +9,7 @@ public class BookingTest extends WebDriverHelper {
     public static void main(String[] args) {
 
         driver.get("https://katalon-demo-cura.herokuapp.com/");
-            WebElement makeAppointmentBtn=driver.findElement(By.id("btn-make-appointment"));
+            WebElement makeAppointmentBtn=driver.findElement(By.id("b4tn-make-appointment"));
             MyMethods.myWait(2);
             makeAppointmentBtn.click();
 
