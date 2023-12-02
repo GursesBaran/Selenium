@@ -19,7 +19,7 @@ public class WebDriverHelper {
 
         //driver1 = new EdgeDriver();
         //driver1.manage().window().maximize();
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
         driver.manage().window().maximize();
 
         //driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
