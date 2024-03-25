@@ -2,7 +2,6 @@ package Utilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-
 import java.io.IOException;
 import java.time.Duration;
 import java.util.logging.Level;
@@ -16,6 +15,8 @@ public class WebDriverHelper {
 
         Logger logger = Logger.getLogger(""); //shows only severe problems on console
         logger.setLevel(Level.SEVERE);
+
+
 
         //driver1 = new EdgeDriver();
         //driver1.manage().window().maximize();

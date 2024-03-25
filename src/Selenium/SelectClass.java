@@ -18,7 +18,7 @@ public class SelectClass {
 
 
         driver.get("https://formsmarts.com/form/yu?mode=h5");
-        WebElement discoverxyz = driver.findElement(By.xpath("//select[@id='u_ZMr_4588']"));
+        WebElement discoverxyz = driver.findElement(By.xpath("//select[@id='u_9TJ_4588']"));
 
 
         Select dropdown = new Select(discoverxyz);
